@@ -1,0 +1,12 @@
+body {
+
+    background-color: whitesmoke;
+}
+
+.toolbar {
+
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid #999999;
+    height: 70px;
+}

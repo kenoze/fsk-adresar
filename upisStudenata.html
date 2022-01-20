@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upis studenata</title>
+    <script src="fskAdresar.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        .unos{
+            position:relative;
+            top: 45%;
+            left: 45%;
+        }
+    #ime{
+        background-color: lightgrey;
+        border: 1px solid rgb(8, 8, 8);
+        width: 200px;
+        height: 30px;
+    }
+    #prezime{
+        background-color: lightgrey;
+        border: 1px solid rgb(8, 8, 8);
+        width: 200px;
+        height: 30px;
+    }
+    #index{
+        background-color: lightgrey;
+        border: 1px solid rgb(8, 8, 8);
+        width: 200px;
+        height: 30px;
+    }
+    #smjer{
+        background-color: lightgrey;
+        border: 1px solid rgb(8, 8, 8);
+        width: 200px;
+        height: 30px;
+    }
+    #ciklus{
+        background-color: lightgrey;
+        border: 1px solid rgb(8, 8, 8);
+        width: 200px;
+        height: 30px;
+    }
+    #semestar{
+        background-color: lightgrey;
+        border: 1px solid rgb(8, 8, 8);
+        width: 200px;
+        height: 30px;
+    }
+    
+    #btn{
+        background-color: lightgrey;
+        border: 1px solid rgb(163, 3, 3);
+        width: 200px;
+        height: 30px;
+        
+
+    }
+    
+    #btn:hover{
+        background-color: rgb(163, 3, 3);
+    }
+        
+
+    
+    </style>
+</head>
+<body>
+    <div class="toolbar">
+    <a href="index.html"><h2 style="text-align: center;color: aliceblue;">FSK Adresar</h2></a>
+    </div>
+    <br> 
+    
+    <div class="unos"> 
+        <input id="ime" placeholder="ime"><br><br>
+        <input id="prezime" placeholder="prezime"><br><br>
+        <input id="index" placeholder="index"><br><br>
+        <input id="smjer" placeholder="smjer"><br><br>
+        <input id="ciklus" placeholder="ciklus"><br><br>
+        <input id="semestar" placeholder="semestar"><br>
+        <br>
+        <br>
+        <div class="btn">
+        <button id="btn" onclick="ubaciStudenta(
+        document.getElementById('ime').value,
+        document.getElementById('prezime').value,
+        document.getElementById('index').value,
+        document.getElementById('smjer').value,
+        document.getElementById('ciklus').value,
+        document.getElementById('semestar').value);">Upiši studenta</button>
+    </div>
+    </div>
+</body>
+</html>
